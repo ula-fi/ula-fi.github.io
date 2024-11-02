@@ -96,6 +96,21 @@ body {
     color: #ffffff;
 }
 
+.home-events {
+    width: 190px;
+    height: 22px;
+    top: 187px;
+    left: 293px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    color:black;
+}
+
 .listing{
     flex-direction: column;
 }
@@ -132,8 +147,6 @@ body {
     background-color: black;
     color: white;
     text-transform:uppercase;
-
-    
 }
 
 .event-card{
