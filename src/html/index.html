@@ -4,26 +4,28 @@
 <body class="body">
     @@include('blocks/page-header.html')
     <main class="main">
-
-        <div class="main__logo-quote">
-            <h2 class="logo-quote__quote">Арт - пространство</h2>
-            <img
-            src="./assets/images/LENNI.svg"
-            alt="lenni"
-            class="logo-quote__logo"/>
-            <h2 class="logo-quote__quote">Для людей, горящих сердцем и делом<br>Место для настоящего</h2>
-        </div>
-
-        <div class="main__buttons">
-            <h3 class= "before-buttons__text">Я хочу:</h3>
-            <div class="buttons__some-btn">
-                <a class="orange-btn butn" href="#">Провести мероприятие</a>
-                <a class="white-btn butn" href="#">Стать арендатором</a>
+        <div class="home">
+            <div class="main__logo-quote">
+                <h2 class="logo-quote__quote">Арт - пространство</h2>
+                <img
+                src="./assets/images/LENNI.svg"
+                alt="lenni"
+                class="logo-quote__logo"/>
+                <h2 class="logo-quote__quote">Для людей, горящих сердцем и делом<br>Место для настоящего</h2>
             </div>
-        </div>
 
-        <div class="title__second">
-            <h2 class="title">О нас</h2>
+            <div class="main__buttons">
+                <h3 class= "buttons__text">Я хочу:</h3>
+                <div class="btn__some-btn">
+                    <a class="some-btn__orange-btn" href="#">Провести мероприятие</a>
+                    <a class="some-btn__white-btn" href="#">Стать арендатором</a>
+                </div>
+            </div>
+
+            <div class="title__second">
+                <h2 class="title">О нас</h2>
+            @@include('blocks/blog-listing.html',{"class": "home_listing"})
+            </div>
         </div>
     </main>
     <footer class="page-footer">footer</footer> 

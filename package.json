@@ -7,7 +7,6 @@
         "autoprefixer": "^10.4.2",
         "browser-sync": "^2.27.7",
         "del": "^6.0.0",
-        "gulp": "^5.0.0",
         "gulp-csso": "^4.0.1",
         "gulp-file-include": "^2.3.0",
         "gulp-format-html": "^1.2.5",
@@ -31,6 +30,10 @@
         "start": "gulp start"
     },
     "dependencies": {
-        "gulp-cli": "^3.0.0"
-    }
+        "gulp-cli": "^3.0.0",
+        "mailgun-js": "^0.22.0"
+    },
+    "main": "index.js",
+    "keywords": [],
+    "license": "ISC"
 }
